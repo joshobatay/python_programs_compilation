@@ -13,5 +13,28 @@ num9 = int(input("Enter ninth number: "))
 num10 = int(input("Enter tenth number: "))
 
 # process numbers
+odd_count = 0
 
+if num1 % 2 != 0:
+    odd_count += 1
+if num2 % 2 != 0:
+    odd_count += 1
+if num3 % 2 != 0:
+    odd_count += 1
+if num4 % 2 != 0:
+    odd_count += 1
+if num5 % 2 != 0:
+    odd_count += 1
+if num6 % 2 != 0:
+    odd_count += 1
+if num7 % 2 != 0:
+    odd_count += 1
+if num8 % 2 != 0:
+    odd_count += 1
+if num9 % 2 != 0:
+    odd_count += 1
+if num10 % 2 != 0:
+    odd_count += 1
+    
 # print result
+
