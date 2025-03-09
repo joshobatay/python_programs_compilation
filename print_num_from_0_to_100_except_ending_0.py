@@ -3,7 +3,7 @@
 # process
 i = 0
 while i <= 100:
-    # check if i is not divisible by 10 and 5, if not, it prints
+    # check if i is not divisible by 10 and 5, if yes, print i
     if i % 10 != 0 and i % 5 != 0:
         # output
         print(i) 
