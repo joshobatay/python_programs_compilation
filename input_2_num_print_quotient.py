@@ -5,7 +5,12 @@ num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 
 # process quotient
-quotient = num1 / num2
+if num2 == 0:
+    print("Cannot divide by zero")
+else:
+    quotient = num1 / num2
+    # print result
+    print(f"The quotient of {num1} and {num2} is {quotient}")
 
-# print result
-print(f"The quotient of {num1} and {num2} is {quotient}")
+
+    
