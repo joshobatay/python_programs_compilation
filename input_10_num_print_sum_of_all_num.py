@@ -16,3 +16,4 @@ num10 = int(input("Enter tenth number: "))
 sum_of_all = num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9 + num10
 
 # print result
+print(f"The sum of all numbers is {sum_of_all}")
