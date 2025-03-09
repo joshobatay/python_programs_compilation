@@ -8,3 +8,4 @@ num2 = int(input("Enter second number: "))
 power = num1 ** num2
 
 # print result
+print(f"{num1} raised to the power of {num2} is {power}")
