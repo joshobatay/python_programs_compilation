@@ -8,3 +8,4 @@ num2 = int(input("Enter second number: "))
 quotient = num1 / num2
 
 # print result
+print(f"The quotient of {num1} and {num2} is {quotient}")
