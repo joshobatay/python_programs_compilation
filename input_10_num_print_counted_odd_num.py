@@ -37,4 +37,4 @@ if num10 % 2 != 0:
     odd_count += 1
     
 # print result
-
+print(f"The number of odd numbers is {odd_count}")
