@@ -5,7 +5,7 @@ entered_numbers = []
 
 # ask user infinite times
 while True:
-
+    try:
         num = int(input('Enter number: '))
         entered_numbers.append(num)
     
@@ -16,10 +16,10 @@ while True:
         
         # outputs the number with most duplicates
         print(f"number {most_frequent}, appeared {count} times")
+    
+    except ValueError:
+        print("Invalid input, program will stop.")
+        break
         
     
   
-
-
-
-
