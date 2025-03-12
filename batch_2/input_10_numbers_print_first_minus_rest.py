@@ -9,5 +9,6 @@ for i in range(10):
     numbers.append(num) # adds the number to the list
 
 # process
+result = numbers[0] - sum(numbers[1:])
 
 # output
