@@ -8,3 +8,5 @@ num2 = int(input("Enter a second number: "))
 difference = num1 // num2 # use // for floor division (no decimal points)
 
 # output
+print(f"The difference of {num1} and {num2} is {difference}")
+
