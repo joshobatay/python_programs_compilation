@@ -4,10 +4,14 @@
 entered_numbers = []
 
 while True:
-    
+    try:
         num = int(input("Enter a number: "))  # Ask for a number
         entered_numbers.append(num)  # Stores the number
         print(f"Lowest number so far: {min(entered_numbers)}")  # Show the lowest number
+        
+    except ValueError:
+        print("Program stopped, please input valid number")
+        break # stops the program if invalid input
     
 
 
