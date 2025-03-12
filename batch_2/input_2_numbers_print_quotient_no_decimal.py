@@ -5,5 +5,6 @@ num1 = int(input("Enter a first number: "))
 num2 = int(input("Enter a second number: "))
 
 # process
+difference = num1 // num2 # use // for floor division (no decimal points)
 
 # output
