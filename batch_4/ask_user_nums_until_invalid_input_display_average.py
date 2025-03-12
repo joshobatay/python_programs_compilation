@@ -7,10 +7,15 @@ entered_number = []
 
 # ask user infinite times
 while True:
-    
-    # process
-    num = int(input("Enter a number: "))
-    entered_number.append(num)
-    average = statistics.mean(entered_number) # calculates the average
+    try:
+        # process
+        num = int(input("Enter a number: "))
+        entered_number.append(num)
+        average = statistics.mean(entered_number) # calculates the average
 
-# display average
+        # display average
+        print(f"Current average: {average}")
+    
+    except ValueError:
+        print("Invalid input, program will stop!")
+        break
