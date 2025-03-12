@@ -12,3 +12,4 @@ for i in range(10):
 result = numbers[0] - sum(numbers[1:])
 
 # output
+print(f"The result of the first number minus all the remaining numbers is: {result}")
