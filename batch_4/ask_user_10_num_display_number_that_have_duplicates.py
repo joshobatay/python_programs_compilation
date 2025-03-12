@@ -9,8 +9,13 @@ for i in range(10):
     entered_numbers.append(num)
 
 # initialize an empty list for counting duplicate numbers
+duplicate_numbers = []
 
 # process
+for num in entered_numbers:
+    if entered_numbers.count(num) > 1 and num not in duplicate_numbers:
+        duplicate_numbers.append(num)
 
 # display numbers that have duplicate
+print(f"The numbers that have duplicates are {duplicate_numbers}")
 
