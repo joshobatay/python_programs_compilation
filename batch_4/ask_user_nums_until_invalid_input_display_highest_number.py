@@ -5,11 +5,14 @@ entered_numbers = []
 
 # ask user infinite times
 while True:
-    
-    # process
-    num = int(input("Enter a number: "))
-    entered_numbers.append(num)
-    print(f"The highest number so far: {max(entered_numbers)}") # displays the highest number
+    try:
+        
+        # process
+        num = int(input("Enter a number: "))
+        entered_numbers.append(num)
+        print(f"The highest number so far: {max(entered_numbers)}") # displays the highest number
 
-
+    except ValueError:
+        print("Invalid input, enter a valid number!")
+        break
 
