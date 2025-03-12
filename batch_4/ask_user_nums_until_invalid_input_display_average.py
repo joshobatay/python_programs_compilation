@@ -6,7 +6,11 @@ import statistics # built in module of python for getting average
 entered_number = []
 
 # ask user infinite times
-
-# process
+while True:
+    
+    # process
+    num = int(input("Enter a number: "))
+    entered_number.append(num)
+    average = statistics.mean(entered_number) # calculates the average
 
 # display average
