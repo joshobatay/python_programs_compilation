@@ -5,10 +5,13 @@ entered_number = []
 
 # ask user for number infinite times
 while True:
+    try:
     
-    num = int(input("Enter a number: "))
-    entered_number.append(num)
-    entered_number.sort(reverse = True)
-    print(f"Entered numbers (highest to lowest): {entered_number}")
-
-# output numbers from highest to lowest
+        num = int(input("Enter a number: "))
+        entered_number.append(num)
+        entered_number.sort(reverse = True) # reverses the sort order
+        print(f"Entered numbers (highest to lowest): {entered_number}") # output numbers from highest to lowest
+    
+    except ValueError:
+        print("Invalid input, enter a valid number!")
+        break
