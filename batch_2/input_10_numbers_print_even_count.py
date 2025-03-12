@@ -7,7 +7,7 @@ try:
 
     # input
     for i in range(10): # ask user 10 times
-        num = int(input(f"Enter number {i+1}: "))
+        num = int(input(f"Enter number {i + 1}: "))
         if num % 2 == 0: # checks if number is divisible by 2, if yes, even_count adds by 1
             even_count+=1
             
